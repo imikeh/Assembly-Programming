@@ -1,0 +1,37 @@
+
+alu_test.image:     file format elf32-tradbigmips
+
+Disassembly of section .text:
+
+00008000 <_ftext>:
+    8000:	00000821 	move	at,zero
+    8004:	24020015 	li	v0,21
+    8008:	24030010 	li	v1,16
+    800c:	2404ffeb 	li	a0,-21
+    8010:	2406fff0 	li	a2,-16
+    8014:	00435020 	add	t2,v0,v1
+    8018:	00445820 	add	t3,v0,a0
+    801c:	00866020 	add	t4,a0,a2
+    8020:	00436822 	sub	t5,v0,v1
+    8024:	00867022 	sub	t6,a0,a2
+    8028:	00447822 	sub	t7,v0,a0
+    802c:	00438024 	and	s0,v0,v1
+    8030:	00438825 	or	s1,v0,v1
+    8034:	00439026 	xor	s2,v0,v1
+    8038:	00439827 	nor	s3,v0,v1
+    803c:	0062a02a 	slt	s4,v1,v0
+    8040:	0086a82a 	slt	s5,a0,a2
+    8044:	0083b02b 	sltu	s6,a0,v1
+    8048:	0064b82b 	sltu	s7,v1,a0
+    804c:	3c18000f 	lui	t8,0xf
+
+00008050 <.EXIT>:
+    8050:	03e00008 	jr	ra
+    8054:	00000000 	nop
+    8058:	00000000 	nop
+Disassembly of section .reginfo:
+
+00008060 <.reginfo>:
+    8060:	81fffc5e 	lb	ra,-930(t7)
+	...
+    8074:	00010050 	0x10050

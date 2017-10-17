@@ -1,0 +1,131 @@
+pc_addr is : 0
+***********************************************
+This function i going to do : LUI
+And the instruction is : 3c1a0000 
+The fuction description is : GPR[rt] ← immediate || 0
+Result:
+immediate is : 0
+rt is 26 AND $26 is 0
+***********************************************
+***********************************************
+This function i going to do : LW
+And the instruction is : 8f5a0044 
+The fuction description is : GPR[rt] ← memory[GPR[base] + offset]
+Result:
+base is 26 AND $26 is 0
+offset is : 68
+memory address is : 68
+rt is 26 AND $26 is 1112493908
+***********************************************
+pc_addr is : 8
+***********************************************
+This function i going to do : LUI
+And the instruction is : 3c1d0800 
+The fuction description is : GPR[rt] ← immediate || 0
+Result:
+immediate is : 2048
+rt is 29 AND $29 is 134217728
+***********************************************
+pc_addr is : 12
+***********************************************
+This function i going to do : LUI
+And the instruction is : 3c1a0000 
+The fuction description is : GPR[rt] ← immediate || 0
+Result:
+immediate is : 0
+rt is 26 AND $26 is 0
+***********************************************
+***********************************************
+This function i going to do : ORI
+And the instruction is : 375a8000 
+The fuction description is : GPR[rt] ← GPR[rs] or immediate
+Result:
+imm is : 32768
+rt is 26 AND $26 is 32768
+rs is 26 AND $26 is 32768
+***********************************************
+pc_addr is : 20
+***********************************************
+This function i going to do : JALR
+And the instruction is : 0340f809 
+The fuction description is : To execute a procedure call to an instruction address in a register
+Result:
+rs is 26 AND $26 is 32768
+jump_PC is : 32768
+rd is 31 AND $31 is 28
+***********************************************
+pc_addr is : 24
+***********************************************
+This function i going to do : NOP
+And the instruction is : 00000000 
+The fuction description is : To perform no operation
+***********************************************
+***********************************************
+This function i going to do : ADDI
+And the instruction is : 20080000 
+The fuction description is : GPR[rt] ← GPR[rs] + immediate
+Result:
+rs is 0 AND $0 is 0
+immediate is : 0
+rt is 8 AND $8 is 0
+***********************************************
+***********************************************
+This function i going to do : ADDI
+And the instruction is : 20090000 
+The fuction description is : GPR[rt] ← GPR[rs] + immediate
+Result:
+rs is 0 AND $0 is 0
+immediate is : 0
+rt is 9 AND $9 is 0
+***********************************************
+***********************************************
+This function i going to do : ADDI
+And the instruction is : 21080001 
+The fuction description is : GPR[rt] ← GPR[rs] + immediate
+Result:
+rs is 8 AND $8 is 1
+immediate is : 1
+rt is 8 AND $8 is 1
+***********************************************
+***********************************************
+This function i going to do : STLI
+And the instruction is : 290a000b 
+The fuction description is : GPR[rt] ← (GPR[rs] < immediate)
+Result:
+imm is : 11
+rt is 10 AND $10 is 2048
+rs is 8 AND $8 is 1
+***********************************************
+***********************************************
+This function i going to do : BEQ
+And the instruction is : 11400003 
+The fuction description is : if GPR[rs] = GPR[rt] then branch
+Result:
+rs is 10 AND $10 is 2048
+offset is : 3
+target_offset is : 12
+rt is 0 AND $0 is 0
+***********************************************
+pc_addr is : 32788
+***********************************************
+This function i going to do : NOP
+And the instruction is : 00000000 
+The fuction description is : To perform no operation
+***********************************************
+***********************************************
+This function i going to do : J
+And the instruction is : 08002002 
+The fuction description is : To branch within the current 256 MB-aligned region
+Result:
+index is : 8194
+jump_PC is : 32776
+***********************************************
+***********************************************
+This function i going to do : ADD
+And the instruction is : 01284820 
+The fuction description is : GPR[rd] ← GPR[rs] + GPR[rt]
+Result:
+rs is 9 AND $9 is 1
+rt is 8 AND $8 is 1
+rd is 9 AND $9 is 1
+***********************************************

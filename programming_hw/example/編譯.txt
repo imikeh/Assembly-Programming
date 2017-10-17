@@ -1,0 +1,3 @@
+arm-none-eabi-gcc.exe a.s -T generic-hosted.ld
+
+arm-none-eabi-run.exe a.out

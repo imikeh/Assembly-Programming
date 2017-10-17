@@ -1,0 +1,48 @@
+
+inthandle.image:     file format elf32-bigmips
+
+Disassembly of section .text:
+
+0000000000001000 <_ftext>:
+    1000:	27bdff74 	addiu	$sp,$sp,-140
+    1004:	401a7000 	mfc0	$k0,$epc
+	...
+    1014:	afba0004 	sw	$k0,4($sp)
+    1018:	401a6800 	mfc0	$k0,$cause
+	...
+    1028:	afba0008 	sw	$k0,8($sp)
+    102c:	401a6000 	mfc0	$k0,$status
+	...
+    103c:	afba000c 	sw	$k0,12($sp)
+    1040:	27bd008c 	addiu	$sp,$sp,140
+	...
+    1050:	401a6800 	mfc0	$k0,$cause
+	...
+    1060:	241b1000 	li	$k1,4096
+    1064:	035bd820 	add	$k1,$k0,$k1
+    1068:	0360f809 	jalr	$k1
+    106c:	00000000 	nop
+	...
+    107c:	27bdff74 	addiu	$sp,$sp,-140
+	...
+    108c:	8fba0004 	lw	$k0,4($sp)
+	...
+    109c:	409a7000 	mtc0	$k0,$epc
+	...
+    10ac:	8fba0008 	lw	$k0,8($sp)
+	...
+    10bc:	409a6800 	mtc0	$k0,$cause
+	...
+    10cc:	8fba000c 	lw	$k0,12($sp)
+    10d0:	27bd008c 	addiu	$sp,$sp,140
+	...
+    10e0:	409a6000 	mtc0	$k0,$status
+	...
+    10f0:	341bfc01 	li	$k1,0xfc01
+    10f4:	409b6000 	mtc0	$k1,$status
+    10f8:	00000000 	nop
+    10fc:	401a7000 	mfc0	$k0,$epc
+	...
+    1108:	03400008 	jr	$k0
+    110c:	00000000 	nop
+Disassembly of section .data:

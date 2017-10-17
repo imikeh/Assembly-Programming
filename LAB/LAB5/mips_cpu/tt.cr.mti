@@ -1,0 +1,8 @@
+C:/c/lab5/mips_cpu/I_Cache.v {1 {vlog -work work -vopt C:/c/lab5/mips_cpu/I_Cache.v
+Model Technology ModelSim SE vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module I_Cache
+
+Top level modules:
+	I_Cache
+
+} {} {}}

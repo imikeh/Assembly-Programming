@@ -1,0 +1,118 @@
+
+intprocess.image:     file format elf32-bigmips
+
+Disassembly of section .text:
+
+0000000000001400 <_ftext>:
+    1400:	27bdff80 	addiu	$sp,$sp,-128
+    1404:	0020d025 	move	$k0,$at
+    1408:	afba0000 	sw	$k0,0($sp)
+    140c:	0040d025 	move	$k0,$v0
+    1410:	afba0004 	sw	$k0,4($sp)
+    1414:	0060d025 	move	$k0,$v1
+    1418:	afba0008 	sw	$k0,8($sp)
+    141c:	0080d025 	move	$k0,$a0
+    1420:	afba000c 	sw	$k0,12($sp)
+    1424:	00a0d025 	move	$k0,$a1
+    1428:	afba0010 	sw	$k0,16($sp)
+    142c:	00c0d025 	move	$k0,$a2
+    1430:	afba0014 	sw	$k0,20($sp)
+    1434:	00e0d025 	move	$k0,$a3
+    1438:	afba0018 	sw	$k0,24($sp)
+    143c:	0100d025 	move	$k0,$t0
+    1440:	afba001c 	sw	$k0,28($sp)
+    1444:	0120d025 	move	$k0,$t1
+    1448:	afba0020 	sw	$k0,32($sp)
+    144c:	0140d025 	move	$k0,$t2
+    1450:	afba0024 	sw	$k0,36($sp)
+    1454:	0160d025 	move	$k0,$t3
+    1458:	afba0028 	sw	$k0,40($sp)
+    145c:	0180d025 	move	$k0,$t4
+    1460:	afba002c 	sw	$k0,44($sp)
+    1464:	01a0d025 	move	$k0,$t5
+    1468:	afba0030 	sw	$k0,48($sp)
+    146c:	01c0d025 	move	$k0,$t6
+    1470:	afba0034 	sw	$k0,52($sp)
+    1474:	01e0d025 	move	$k0,$t7
+    1478:	afba0038 	sw	$k0,56($sp)
+    147c:	0200d025 	move	$k0,$s0
+    1480:	afba003c 	sw	$k0,60($sp)
+    1484:	0220d025 	move	$k0,$s1
+    1488:	afba0040 	sw	$k0,64($sp)
+    148c:	0240d025 	move	$k0,$s2
+    1490:	afba0044 	sw	$k0,68($sp)
+    1494:	0260d025 	move	$k0,$s3
+    1498:	afba0048 	sw	$k0,72($sp)
+    149c:	0280d025 	move	$k0,$s4
+    14a0:	afba004c 	sw	$k0,76($sp)
+    14a4:	02a0d025 	move	$k0,$s5
+    14a8:	afba0050 	sw	$k0,80($sp)
+    14ac:	02c0d025 	move	$k0,$s6
+    14b0:	afba0054 	sw	$k0,84($sp)
+    14b4:	02e0d025 	move	$k0,$s7
+    14b8:	afba0058 	sw	$k0,88($sp)
+    14bc:	0300d025 	move	$k0,$t8
+    14c0:	afba005c 	sw	$k0,92($sp)
+    14c4:	0320d025 	move	$k0,$t9
+    14c8:	afba0060 	sw	$k0,96($sp)
+    14cc:	0340d025 	move	$k0,$k0
+    14d0:	afba0064 	sw	$k0,100($sp)
+    14d4:	0360d025 	move	$k0,$k1
+    14d8:	afba0068 	sw	$k0,104($sp)
+    14dc:	0380d025 	move	$k0,$gp
+    14e0:	afba006c 	sw	$k0,108($sp)
+    14e4:	03a0d025 	move	$k0,$sp
+    14e8:	afba0070 	sw	$k0,112($sp)
+    14ec:	03c0d025 	move	$k0,$s8
+    14f0:	afba0074 	sw	$k0,116($sp)
+    14f4:	03e0d025 	move	$k0,$ra
+    14f8:	afba0078 	sw	$k0,120($sp)
+    14fc:	00004025 	move	$t0,$zero
+    1500:	00004825 	move	$t1,$zero
+    1504:	00005025 	move	$t2,$zero
+    1508:	8fa10000 	lw	$at,0($sp)
+    150c:	8fa20004 	lw	$v0,4($sp)
+    1510:	8fa30008 	lw	$v1,8($sp)
+    1514:	8fa4000c 	lw	$a0,12($sp)
+    1518:	8fa50010 	lw	$a1,16($sp)
+    151c:	8fa60014 	lw	$a2,20($sp)
+    1520:	8fa70018 	lw	$a3,24($sp)
+    1524:	8fa8001c 	lw	$t0,28($sp)
+    1528:	8fa90020 	lw	$t1,32($sp)
+    152c:	8faa0024 	lw	$t2,36($sp)
+    1530:	8fab0028 	lw	$t3,40($sp)
+    1534:	8fac002c 	lw	$t4,44($sp)
+    1538:	8fad0030 	lw	$t5,48($sp)
+    153c:	8fae0034 	lw	$t6,52($sp)
+    1540:	8faf0038 	lw	$t7,56($sp)
+    1544:	8fb0003c 	lw	$s0,60($sp)
+    1548:	8fb10040 	lw	$s1,64($sp)
+    154c:	8fb20044 	lw	$s2,68($sp)
+    1550:	8fb30048 	lw	$s3,72($sp)
+    1554:	8fb4004c 	lw	$s4,76($sp)
+    1558:	8fb50050 	lw	$s5,80($sp)
+    155c:	8fb60054 	lw	$s6,84($sp)
+    1560:	8fb70058 	lw	$s7,88($sp)
+    1564:	8fb8005c 	lw	$t8,92($sp)
+    1568:	8fb90060 	lw	$t9,96($sp)
+    156c:	8fba0064 	lw	$k0,100($sp)
+    1570:	8fbb0068 	lw	$k1,104($sp)
+    1574:	8fbc006c 	lw	$gp,108($sp)
+    1578:	8fbd0070 	lw	$sp,112($sp)
+    157c:	00000000 	nop
+    1580:	8fbe0074 	lw	$s8,116($sp)
+    1584:	8fbf0078 	lw	$ra,120($sp)
+    1588:	27bd0080 	addiu	$sp,$sp,128
+    158c:	03e00008 	jr	$ra
+    1590:	00000000 	nop
+    1594:	03e0d025 	move	$k0,$ra
+    1598:	afba0078 	sw	$k0,120($sp)
+    159c:	00004025 	move	$t0,$zero
+    15a0:	00004825 	move	$t1,$zero
+    15a4:	00005025 	move	$t2,$zero
+    15a8:	8fa10000 	lw	$at,0($sp)
+    15ac:	8fbf0078 	lw	$ra,120($sp)
+    15b0:	00000000 	nop
+    15b4:	03e00008 	jr	$ra
+    15b8:	00000000 	nop
+Disassembly of section .data:
